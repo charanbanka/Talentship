@@ -34,7 +34,7 @@ export const postReminder = (remindDetails,navigate) => async(dispatch)=>{
 
         dispatch(postReminderAction(data))
 
-        navigate('/home')
+        // navigate('/home')
     } catch (error) {
         console.log(error)
     }
